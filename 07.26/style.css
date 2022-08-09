@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background: #FFFFFF;
+    height: 90px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+width: 220px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.header-nav__item {
+    margin-right: 32px;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-btn {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    display: inline-block;
+    padding: 11px 20px;
+    background: #1B1A1A;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+}
+
+/* header - end  */
+
+/* first-sren section - start */
+
+.first-screen {
+    width: 100%;
+    background-color: #ECE7E4;
+    background-image: url('img/IMAGE.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-screen_text {
+    padding: 77px 60px;
+    width: 100%;
+    max-width: 600px;
+    padding: 137px 40px;
+    margin-left: 60px;
+
+}
+.first-screen_short-title{
+     margin-bottom: 20px;   
+}
+.short-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+   
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.first-screen_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    /* or 110% */
+    margin-bottom: 18px;
+    color: #1B1A1A;
+}
+
+.first-screen_inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    margin-bottom: 41px;
+    color: #403E3B;
+}
+
+.read-more {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    padding: 11px 20px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
+/* first screen - end */
+/* second-screen - start */
+.second-screen{
+    width: 100%;
+    background-color: #FFFFFF;;;
+}
+.second-screen_info{
+padding: 100px 336px;
+
+
+
+}
+.second-screen_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height, or 119% */
+    color: #403E3B;
+    display: inline-block;
+    padding:                    
+    
+    
+}
+.second-screen_text-1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+padding-left: 267px;
+
+display: inline-block;
+
+
+color: #403E3B;
+
+ 
+}
+.second-screen_text-2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    padding: 10px 0px 10px 267px;
+
+}
+.second-screen_text-3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    padding-left:267px;
+    
+    
+
+ 
+}
+.second-screen_partner-name{
+    margin-left: 381px;
+    margin-top: -55px;
+}
+.second-screen_partner-info{
+    margin-left: 381px;
+}
+.img{
+    background-image: url('img/partner.png');
+    width: 84px;
+    height: 84px;
+    margin-left: 267px;
+    background-repeat: no-repeat;
+}
+/* bgImg */
+
+.bgImg-section{
+    width: 100%;
+    height: 600px;
+    background-image: url('img/IMAGE\ \(1\).jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 75px;
+
+}
+.bgImg-text{
+    width: 285px;
+}
+.bgImg-text_title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+.bgImg-text_inner{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #645C55;
+}
+.process-section{
+    padding: 100px 0px;
+}
+.process-section_short-title{
+    text-align: center;
+    margin-bottom: 13px;
+}.process-section_title{
+    font-weight: 400;
+font-size: 39px;
+line-height: 42px;
+/* identical to box height, or 108% */
+
+text-align: center;
+
+color: #1B1A1A;
+margin-bottom: 47px;
+}
+.process-items{
+    display: flex;
+    justify-content: space-between;
+}
+.process-item{
+    width: 378px;
+    text-align: center;
+    margin: 16px;
+}
+.process-container{
+    padding: 100px 120px;
+}
+.process-item_img{
+    width: 117px;
+    margin: 0px auto 15px;
+}
+.process-item_title{
+    font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #403E3B;
+}
+.process-item_inner{
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+text-align: center;
+
+color: #645C55;
+
+}
+.bgImg-section1{
+    background-image: url('img/IMAGE\ \(1\).jpg');
+
+}
+.bgImg_section2{
+    background-image: url('img/IMAGE\ \(2\).jpg');
+}
+
+
+
+
+.customers-section{
+ background: #403E3B;
+ padding: 60px 136px;
+ display: flex;
+ column-gap: 132px;
+}
+
+
+.customers-section_text{
+    max-width: 460px;
+    margin-top: 75px;
+}
+.customers-section_short-title{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #ECE7E4;
+margin-bottom: 16px;
+}
+.customers-section_title{
+    font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height, or 119% */
+
+
+color: #FFFFFF;
+margin bottom: 14px;
+}
+.customers-section_inner{
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+
+color: #ECE7E4;
+}
+.customers-logos{
+    max-width: 432px;
+    min-height: 290px;
+    list-style: none;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    align-content:space-between;
+    flex-wrap: wrap;
+}
+.bgImg_section3{
+    background-image: url('img/IMAGE2.jpg');
+    justify-content: flex-start;
+}
